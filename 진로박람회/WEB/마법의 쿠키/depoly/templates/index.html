@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>마법의 쿠키</title>
+</head>
+
+<body>
+    <h1>Welcome to the Magic Cookie site!</h1>
+    {% if flag %}
+    <p>Congratulations, here is your flag: {{ flag }}</p>
+    {% else %}
+    <p>You are a regular user. Try to become an admin to get the flag.</p>
+    {% endif %}
+</body>
+
+</html>
